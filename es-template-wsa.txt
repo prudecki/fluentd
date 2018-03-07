@@ -1,4 +1,4 @@
-PUT /_template/wsa
+PUT /_template/wsa 
     {
     "template": "wsa*",
     "settings": {},
