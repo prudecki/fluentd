@@ -8,6 +8,7 @@ It includes adding geopoint information and other enhancements.
 
 Plugins used:
 geoip - https://github.com/y-ken/fluent-plugin-geoip
+
 record_transformer
 
 Use it, fork it, do whatever you like.
