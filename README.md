@@ -16,3 +16,5 @@ You can also find in my repositories dashboards for Grafana.
 
 
 Use it, fork it, do whatever you like.
+
+![alt text](https://github.com/prudecki/fluentd-cisco-wsa/blob/master/kibana-wsa.png)
