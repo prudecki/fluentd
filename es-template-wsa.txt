@@ -1,0 +1,58 @@
+PUT /_template/wsa
+    {
+    "template": "wsa*",
+    "settings": {},
+    "mappings": {
+      "wsa": {
+        "dynamic_templates": [
+          {
+            "notanalyzed": {
+              "mapping": {
+                "index": "not_analyzed",
+                "type": "keyword"
+              },
+              "match_mapping_type": "string",
+              "match": "*"
+            }
+          }
+        ],
+        "properties": {
+          "@timestamp": {
+            "type": "date"
+          },
+	  "geopoint": {
+	"type": "geo_point"
+	},
+          "clientip": {
+            "type": "ip"
+          },
+	      "source_host": {
+            "type": "ip"
+          },
+          "destinationport": {
+            "type": "integer"
+          },
+          "sourceport": {
+            "type": "integer"
+          },
+		  "latency": {
+            "type": "integer"
+          },
+          "responsesize": {
+            "type": "integer"
+          },
+          " wbrs": {
+            "type": "half_float",
+		    "index": "true"
+          },
+          "serverip": {
+            "type": "ip"
+          },
+          "transactionhost": {
+            "index": "analyzed",
+            "type": "text"
+            }
+        }
+      }
+    }
+  }
