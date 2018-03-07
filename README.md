@@ -9,6 +9,7 @@ It includes adding geopoint information and other enhancements.
 This config consists of two regexp parsing schemes. First one is to be used with WSA that is not authorizing users, the other one with domain authorization. Chose the right one for you.
 
 Plugins used: geoip, record_transformer
+
 I also attach template for index mapping in Elasticsearch (es-template-wsa).
 
 Use it, fork it, do whatever you like.
