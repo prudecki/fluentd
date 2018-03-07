@@ -7,8 +7,7 @@ I would like to share with you a configuration of fluentd for Cisco Web Security
 It includes adding geopoint information and other enhancements.
 
 Plugins used:
-
-geoip - https://github.com/y-ken/fluent-plugin-geoip
+geoip
 record_transformer
 
 Use it, fork it, do whatever you like.
