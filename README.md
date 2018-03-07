@@ -11,7 +11,7 @@ This config consists of two regexp parsing schemes. First one is to be used with
 
 Plugins used: geoip, record_transformer
 
-I also attach template for index mapping in Elasticsearch (es-template-wsa).
+For addition I attach template for index mapping in Elasticsearch (es-template-wsa.txt).
 You can also find in my repositories dashboards for Grafana.
 
 
