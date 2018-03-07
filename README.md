@@ -20,4 +20,4 @@ Use it, fork it, do whatever you like.
 ![alt text](https://github.com/prudecki/fluentd-cisco-wsa/blob/master/images/kibana-wsa.png)
 
 Log subscription configuration:
-![alt text](https://github.com/prudecki/fluentd-cisco-wsa/blob/master/images/log-subscription-cfg.png)
+![alt text](https://github.com/prudecki/fluentd-cisco-wsa/blob/master/images/wsa-cfg.png)
