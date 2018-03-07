@@ -16,3 +16,6 @@ You can also find in my repositories dashboards for Grafana.
 
 
 Use it, fork it, do whatever you like.
+
+WSA Log subscription configuration:
+![alt text](https://raw.githubusercontent.com/prudecki/fluentd-cisco-wsa/blob/master/log-subscription-cfg.png)
